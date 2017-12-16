@@ -1,0 +1,25 @@
+#################################
+#	ADVERTISING PLUGIN			#
+#				  By Mentalrob  #
+#################################
+
+#This line is about where credits is storing
+credits: '127.0.0.1/credits.php'
+#This line is about when plugin get the credits, this credits need to remove from storing place
+remover: '127.0.0.1/remove.php'
+#This line is the php script
+script: '127.0.0.1/script.php'
+#Change this key but pay attention this key length need to be equals 16
+key: 'mentalr0b123asdf'
+key2: 'fdsa321b0rlatnem'
+#ADFLY Api-
+USERID: 13779229
+PUBLICAPIKEY: 'ee15dadcf09833afced1798115007071'
+SECRETAPIKEY: '4981dd1b-f37d-45ca-b5b1-a0d3487b7742'
+creditMessage: '&2Credit : %credit%'
+adlinkmsg: '&6Your ad link -> %link%'
+toolnf: '&4Tool Not Found'
+notenoughcredit: '&4You have not enough credit'
+inventoryfull: '&4You have not empty slots for this tool'
+successbuy: '&2You have successfully bought the tool'
+adnf: '&4Advertise not found'

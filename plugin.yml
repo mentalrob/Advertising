@@ -1,0 +1,6 @@
+name: Advertising
+version: 1.0
+main: me.mentalrob.ad.Main
+commands:
+  adv:
+    description: Advertising
