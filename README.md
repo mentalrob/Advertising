@@ -28,18 +28,18 @@ Change these lines according to your apache server.
 
 In config.yml you will see following lines:
 ```
-USERID: 13779229
-PUBLICAPIKEY: 'ee15dadcf09833afced1798115007071'
-SECRETAPIKEY: '4981dd1b-f37d-45ca-b5b1-a0d3487b7742'
+USERID: #YOUR USERID
+PUBLICAPIKEY: '#YOUR PUBLICAPIKEY'
+SECRETAPIKEY: '#YOUR SECRETAPIKEY'
 ```
 Change this lines with your adfly api keys. You can learn your apikeys from adfly
 In ads.yml
 ```
 Ads:
-  {ad-name ex. anadolumc}:
-    Cost: {point ex 1.0}
-    Link: {redirect link ex http://google.com}
+  anadolumc:
+    Cost: 1.0
+    Link: http://google.com
 ```
-When player types a command like /adv generate anadolumc, plugin looks ads.yml file. If there is an anadolumc named ad then it generates an adfly link to your apache server. When someone click the adfly link and goes to your apache server, apache server writes credit to player's account and redirects to http://google.com
+When player types a command like /adv generate anadolumc, plugin looks ads.yml file. If there is an anadolumc named ad then it generates an adfly link to your apache server. When someone click the adfly link and goes to your apache server, apache server writes credit to player's account and redirects to http://google.com. So player earns 1 credit. Admin earns cash
 
 System works with AES encryption
