@@ -61,7 +61,7 @@ Shops:
     - say %player% just bought the tool1 !
 ```
 Commands section works on console
-# IN-GAME USAGE
+# In-Game Usage
 * You can use the plugin with IG-Commands
 * Type '/adv' for player commands
 * Type '/adv admin' for admin commands
