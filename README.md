@@ -42,4 +42,26 @@ Ads:
 ```
 When player types a command like /adv generate anadolumc, plugin looks ads.yml file. If there is an anadolumc named ad then it generates an adfly link to your apache server. When someone click the adfly link and goes to your apache server, apache server writes credit to player's account and redirects to http://google.com. So player earns 1 credit. Admin earns cash
 
-System works with AES encryption
+In creditShop.yml you can change or add item packets which buyable with credits.
+```
+Shops:
+  tool1:
+    CreditCost: 100.0
+    Items:
+      '322':
+        Data: 1
+        Amount: 8
+        Name: '&4Advertising Gift'
+      '276':
+        Amount: 1
+        Name: '&4Advertising Gift'
+        Enchantments:
+        - DAMAGE_ALL:2
+    Commands:
+    - say %player% just bought the tool1 !
+```
+Commands section works on console
+# IN-GAME USAGE
+* You can use the plugin with IG-Commands
+* Type '/adv' for player commands
+* Type '/adv admin' for admin commands
